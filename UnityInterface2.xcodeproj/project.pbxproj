@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84ABCBA718478CA000893D9B /* UnityInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ABCBA518478CA000893D9B /* UnityInterface.cpp */; };
+		84ABCBA818478CA000893D9B /* UnityInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 84ABCBA618478CA000893D9B /* UnityInterface.h */; };
+		84CFEF091B6A53C4000F7BE0 /* libOpenNI2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CFEF081B6A53C4000F7BE0 /* libOpenNI2.dylib */; };
+		84CFEF0B1B6A53E1000F7BE0 /* libNiTE2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CFEF0A1B6A53E1000F7BE0 /* libNiTE2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84ABCB9E18478BEE00893D9B /* libUnityInterface2.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libUnityInterface2.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		84ABCBA518478CA000893D9B /* UnityInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UnityInterface.cpp; sourceTree = "<group>"; };
+		84ABCBA618478CA000893D9B /* UnityInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnityInterface.h; sourceTree = "<group>"; };
+		84CFEF081B6A53C4000F7BE0 /* libOpenNI2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libOpenNI2.dylib; path = "../../../../Library/OpenNI-MacOSX-x64-2.2/Redist/libOpenNI2.dylib"; sourceTree = "<group>"; };
+		84CFEF0A1B6A53E1000F7BE0 /* libNiTE2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libNiTE2.dylib; path = "../../../../Library/NiTE-MacOSX-x64-2.2/Redist/libNiTE2.dylib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84ABCB9B18478BEE00893D9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CFEF091B6A53C4000F7BE0 /* libOpenNI2.dylib in Frameworks */,
+				84CFEF0B1B6A53E1000F7BE0 /* libNiTE2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84ABCB9318478BED00893D9B = {
+			isa = PBXGroup;
+			children = (
+				84CFEF0A1B6A53E1000F7BE0 /* libNiTE2.dylib */,
+				84CFEF081B6A53C4000F7BE0 /* libOpenNI2.dylib */,
+				84ABCBA518478CA000893D9B /* UnityInterface.cpp */,
+				84ABCBA618478CA000893D9B /* UnityInterface.h */,
+				84ABCB9F18478BEE00893D9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84ABCB9F18478BEE00893D9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84ABCB9E18478BEE00893D9B /* libUnityInterface2.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		84ABCB9C18478BEE00893D9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ABCBA818478CA000893D9B /* UnityInterface.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		84ABCB9D18478BEE00893D9B /* UnityInterface2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84ABCBA218478BEE00893D9B /* Build configuration list for PBXNativeTarget "UnityInterface2" */;
+			buildPhases = (
+				84ABCB9A18478BEE00893D9B /* Sources */,
+				84ABCB9B18478BEE00893D9B /* Frameworks */,
+				849EF3351848C60800D44133 /* ShellScript */,
+				84ABCB9C18478BEE00893D9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnityInterface2;
+			productName = UnityInterface2;
+			productReference = 84ABCB9E18478BEE00893D9B /* libUnityInterface2.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84ABCB9518478BED00893D9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "University of Applied Siences";
+			};
+			buildConfigurationList = 84ABCB9818478BED00893D9B /* Build configuration list for PBXProject "UnityInterface2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84ABCB9318478BED00893D9B;
+			productRefGroup = 84ABCB9F18478BEE00893D9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84ABCB9D18478BEE00893D9B /* UnityInterface2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		849EF3351848C60800D44133 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo otool 1\notool -L ${TARGET_BUILD_DIR}/libUnityInterface2.dylib\n\ninstall_name_tool -id @loader_path/libUnityInterface2.dylib ${TARGET_BUILD_DIR}/libUnityInterface2.dylib\n\necho otool 2\notool -L ${TARGET_BUILD_DIR}/libUnityInterface2.dylib";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84ABCB9A18478BEE00893D9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ABCBA718478CA000893D9B /* UnityInterface.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84ABCBA018478BEE00893D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.9;
+			};
+			name = Debug;
+		};
+		84ABCBA118478BEE00893D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.9;
+			};
+			name = Release;
+		};
+		84ABCBA318478BEE00893D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(LOCAL_LIBRARY_DIR)/NiTE-MacOSX-x64-2.2/Include",
+					"$(LOCAL_LIBRARY_DIR)/OpenNI-MacOSX-x64-2.2/Include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(LOCAL_LIBRARY_DIR)/OpenNI-MacOSX-x64-2.2/Redist",
+					"$(LOCAL_LIBRARY_DIR)/NiTE-MacOSX-x64-2.2/Redist",
+				);
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84ABCBA418478BEE00893D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(LOCAL_LIBRARY_DIR)/NiTE-MacOSX-x64-2.2/Include",
+					"$(LOCAL_LIBRARY_DIR)/OpenNI-MacOSX-x64-2.2/Include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(LOCAL_LIBRARY_DIR)/OpenNI-MacOSX-x64-2.2/Redist",
+					"$(LOCAL_LIBRARY_DIR)/NiTE-MacOSX-x64-2.2/Redist",
+				);
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84ABCB9818478BED00893D9B /* Build configuration list for PBXProject "UnityInterface2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ABCBA018478BEE00893D9B /* Debug */,
+				84ABCBA118478BEE00893D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84ABCBA218478BEE00893D9B /* Build configuration list for PBXNativeTarget "UnityInterface2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ABCBA318478BEE00893D9B /* Debug */,
+				84ABCBA418478BEE00893D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84ABCB9518478BED00893D9B /* Project object */;
+}
